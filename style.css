@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-	background-color: #3A506B;
+	background-color: #1C2541;
 	color: #FFFFFF;
 }
 
@@ -9,61 +9,3 @@ html {
 	box-sizing: border-box;
 }
 
-.container {
-	height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: .3fr 1.5fr 1fr .75fr;
-	grid-gap: 5px;
-
-	grid-template-areas: 
-		"nav nav nav nav"
-		"picture main main main"
-		"content content content content"
-		"footer footer footer footer";
-}
-
-nav {
-	background-color: #1C2541;
-	grid-area: nav;
-
-}
-#picture{
-	grid-area: picture;
-}
-#picture img{
-	width: 100%;
-}
-main {
-	grid-area: main;
-	background-color: #3A506B;
-}
-#sidebar {
-	background-color: #1C2541;
-	grid-area: sidebar;
-}
-#content {
-	background-color: #0B132B;
-	grid-area: content;
-}
-#content img{
-	height: 100%;
-	width: 100%;
-}
-footer {
-	background-color: #1C2541;
-	grid-area: footer;
-}	
-
-@media only screen and (max-width:768px){
-	.container{
-		grid-template-columns: 0.5fr 1fr;
-		grid-template-rows: .5fr 2fr 1fr .6fr;
-		grid-template-areas: 
-			"nav nav"
-			"picture main"
-			"content content"
-			"footer footer";
-
-	}
-}
