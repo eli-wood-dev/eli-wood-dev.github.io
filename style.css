@@ -55,6 +55,8 @@ a:hover{
 	background-color: #5BC0BE;
 	color: #000000;
 	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-between;
 }
 
 .item-title a{
@@ -79,8 +81,20 @@ a:hover{
 	
 }
 
+.hidden{
+	display: none !important;
+}
+
 @media only screen and (max-width: 1000px){
 	body{
 		margin: 0px 0px 0px 0px;
 	}
+}
+
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 400,
+	'GRAD' 0,
+	'opsz' 24
 }
