@@ -1,11 +1,56 @@
 html {
   height: 100%;
   width: 100%;
-	background-color: #1C2541;
-	color: #FFFFFF;
 }
 
 * {
 	box-sizing: border-box;
 }
 
+body{
+	background-color: #1C2541;
+	color: #FFFFFF;
+	font-family: Helvetica, Sans-Serif;
+	margin: 0px 20% 0px 20%;
+}
+
+div{
+	padding: 5px;
+}
+
+.main-container{
+	
+}
+
+.main-title{
+	font-size: 4rem;
+	text-align: center;
+}
+
+.main-content{
+	
+}
+
+.item-container{
+	margin: 10px;
+}
+
+.item-title{
+	background-color: #5BC0BE;
+	color: #000000;
+	font-size: 1.5rem;
+}
+
+.item-content{
+	background-color: #3A506B;
+	display: flex;
+	justify-content: space-around;
+}
+
+.item-desc{
+	
+}
+
+.item-media{
+	
+}
