@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+	font-size: 14pt;
 }
 
 * {
@@ -22,8 +23,23 @@ div{
 	
 }
 
+a:link {
+	text-decoration: none;
+	color: #5BC0BE;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #5BC0BE;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #7DE2DF;
+}
+
 .main-title{
-	font-size: 4rem;
+	font-size: 3.5rem;
 	text-align: center;
 }
 
@@ -41,6 +57,14 @@ div{
 	font-size: 1.5rem;
 }
 
+.item-title a{
+	color: #000000;
+}
+
+.item-title a:hover{
+	color: #0B13AF;
+}
+
 .item-content{
 	background-color: #3A506B;
 	display: flex;
@@ -53,4 +77,10 @@ div{
 
 .item-media{
 	
+}
+
+@media only screen and (max-width: 1000px){
+	body{
+		margin: 0px 0px 0px 0px;
+	}
 }
