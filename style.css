@@ -48,7 +48,8 @@ a:hover{
 }
 
 .item-container{
-	margin: 10px;
+	margin: 15px;
+	padding: 0px;
 }
 
 .item-title{
@@ -79,6 +80,18 @@ a:hover{
 
 .item-media{
 	
+}
+
+.nav {
+	background-color: #0B132B;
+	display: flex;
+	justify-content: space-around;
+	color: #5BC0BE;
+	margin: 15px;
+}
+
+.nav a{
+	font-size: 2rem;
 }
 
 .hidden{

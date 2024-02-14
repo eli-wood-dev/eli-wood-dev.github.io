@@ -3,15 +3,17 @@ console.log(containers);
 
 //items[0].classList.add("hidden");
 containers.forEach(container => {
-	if(container.querySelector(".item-content").className.includes("hidden")){
-		container.querySelector(".item-title").querySelector(".up-arrow").classList.toggle("hidden");
+	let title = container.querySelector(".item-title");
+	let content = container.querySelector(".item-content");
+	if(content.className.includes("hidden")){
+		title.querySelector(".up-arrow").classList.toggle("hidden");
 	} else{
-		container.querySelector(".item-title").querySelector(".down-arrow").classList.toggle("hidden");
+		title.querySelector(".down-arrow").classList.toggle("hidden");
 	}
 	//container.children[1].classList.add("hidden");
-	container.querySelector(".item-title").addEventListener("click", () =>{
-		container.querySelector(".item-content").classList.toggle("hidden");
-		container.querySelector(".item-title").querySelectorAll(".material-symbols-outlined").forEach(icon => {
+	title.addEventListener("click", () =>{
+		content.classList.toggle("hidden");
+		title.querySelectorAll(".material-symbols-outlined").forEach(icon => {
 			icon.classList.toggle("hidden");
 		});
 		//console.log(container.children[0].querySelectorAll(".material-symbols-outlined"));
