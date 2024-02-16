@@ -80,7 +80,16 @@ a:hover{
 }
 
 .item-media{
-	
+	display: flex;
+	width: 100%;
+}
+
+.item-media img{
+	width: 100%;
+}
+
+.item-media iframe{
+	margin: auto;
 }
 
 .nav {
@@ -106,10 +115,6 @@ a:hover{
 
 .hidden{
 	display: none !important;
-}
-
-iframe{
-	
 }
 
 @media only screen and (max-width: 1000px){
