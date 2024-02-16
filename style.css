@@ -96,12 +96,20 @@ a:hover{
 	
 }
 
+.nav img{
+	height: 2rem;
+}
+
 #current-page{
 	text-decoration: underline;
 }
 
 .hidden{
 	display: none !important;
+}
+
+iframe{
+	
 }
 
 @media only screen and (max-width: 1000px){
