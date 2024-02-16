@@ -87,12 +87,17 @@ a:hover{
 	background-color: #0B132B;
 	display: flex;
 	justify-content: space-around;
-	color: #5BC0BE;
 	margin: 15px;
 }
 
 .nav a{
 	font-size: 2rem;
+	color: #5BC0BE;
+	
+}
+
+#current-page{
+	text-decoration: underline;
 }
 
 .hidden{
