@@ -71,7 +71,7 @@ a:hover{
 .item-content{
 	background-color: #3A506B;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
@@ -81,22 +81,25 @@ a:hover{
 
 .item-media{
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
 .item-media img{
 	width: 100%;
+	margin: auto;
 }
 
 .item-media iframe{
 	margin: auto;
+	aspect-ratio: 16/9;
+	width: 100%;
 }
 
 .nav {
 	background-color: #0B132B;
 	display: flex;
 	justify-content: space-around;
-	margin: 15px;
 }
 
 .nav a{
@@ -107,6 +110,7 @@ a:hover{
 
 .nav img{
 	height: 2rem;
+	margin: auto;
 }
 
 #current-page{
@@ -129,4 +133,8 @@ a:hover{
 	'wght' 400,
 	'GRAD' 0,
 	'opsz' 24
+}
+
+.list-title{
+	font-size: 1.2rem;
 }
